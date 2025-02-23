@@ -6,7 +6,7 @@ import Footer from "./footer";
 
 function Home() {
   return (
-    <div className="w-screen min-h-screen">
+    <div className="w-screen min-h-screen bg-[#F5F5DC]">
       <Navbar />
       <HeroSection />
       <DoveMangiare />

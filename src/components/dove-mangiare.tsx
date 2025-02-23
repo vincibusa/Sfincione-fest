@@ -45,7 +45,7 @@ export default function DoveMangiare() {
   const isMapInView = useInView(mapRef, { once: true });
 
   return (
-    <section className="py-16 px-4 bg-gradient-to-b from-gray-900 to-gray-800">
+    <section className="py-16 px-4">
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
